@@ -206,3 +206,7 @@ h1, h2 {
  transition: 0.3s all ease-in-out;
 }
 
+.col-gt a {
+    display: block;
+    text-decoration: none;
+}
