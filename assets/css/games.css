@@ -182,7 +182,7 @@ h1, h2 {
 }
 
 .col-gt div {
- width: 20%;
+ width: 100%;
  height: 35vh;
  background: #D83F87;
  border-radius: 10px;
@@ -215,5 +215,5 @@ col-gt-inner1 a {
 }
 
 a {
-    width: 21%;
+    width: 20%;
 }
