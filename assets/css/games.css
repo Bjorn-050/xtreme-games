@@ -215,3 +215,7 @@ col-gt-inner1 a {
     display: block;
     text-decoration: none;
 }
+
+a {
+    width: 21%;
+}
