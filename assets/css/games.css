@@ -1,0 +1,208 @@
+/* algemeen */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+html, body {
+ margin: 0;
+}
+
+.container {
+ font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+ margin: 0;
+}
+
+/* selection */
+::selection {
+ background: #D83F87;
+ color: #A4B3B6;
+}
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+ width: 8px;
+ height: 8px;
+}
+
+::-webkit-scrollbar-button {
+ width: 1px;
+ height: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+ background: #e1e1e1;
+ border: 16px none #ffffff;
+ border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+ background: #bdbdbd;
+}
+
+::-webkit-scrollbar-thumb:active {
+ background: #999999;
+}
+
+::-webkit-scrollbar-track {
+ background: #666666;
+ border: 28px none #ffffff;
+ border-radius: 50px;
+}
+
+::-webkit-scrollbar-track:hover {
+ background: #666666;
+}
+
+::-webkit-scrollbar-track:active {
+ background: #333333;
+}
+
+::-webkit-scrollbar-corner {
+ background: transparent;
+}
+
+/* main page */
+
+.games-page {
+ height: 100vh;
+ background: #44318D;
+}
+
+.svg {
+ width: 540px;
+ position: absolute;
+ right: 60%;
+ top: auto;
+ bottom: 33%;
+}
+
+.title-cont {
+ margin: 6% 0 0 12.6%;
+ color: #A4B3B6;
+ font-size: 115%;
+}
+
+.title-1 {
+ display: inline-block;
+ position: relative;
+ color: #44318D;
+ font-size: 300%;
+ margin: auto 0 0 auto;
+}
+
+.title-2 {
+ display: inline-block;
+ position: relative;
+ margin: auto 0 0 auto;
+ color: #A4B3B6;
+}
+
+.col-md {
+ width: 140px;
+ height: 5px;
+ background: #44318D;
+ margin: 2px 0 0 0;
+ position: relative;
+ border-radius: 2px;
+}
+
+.subtitle-1 {
+ margin: 0;
+ position: relative;
+}
+
+/* topnav bar */
+.topnav {
+ text-align: center;
+ padding: 12px;
+}
+
+.topnav a {
+ color: #A4B3B6;
+ text-decoration: none;
+}
+
+.topnav a:hover {
+ color: #D83F87;
+ transition: 0.45s all ease-in-out;
+}
+
+.home-cont {
+ display: inline-block;
+ border-right: 2px solid #A4B3B6;
+}
+
+.home {
+ padding: 0 12px 0 0;
+}
+
+.col-h {
+ padding: 0 0 0 6px;
+}
+
+.col-hover {
+ display: inline-block;
+}
+
+.col-md-1 {
+ width: 120px;
+ height: 5px;
+ background: #A4B3B6;
+ margin: 2px 0 0 0;
+ position: relative;
+ border-radius: 2px;
+ left: 48%;
+ display: none;
+}
+
+
+/* de game pagina */
+
+.offline-g-page {
+ height: 100vh;
+ background: #44318D;
+}
+
+.title-cont2 {
+ text-align: center;
+ margin: 0;
+ color: #A4B3B6;
+}
+
+/* flex boxes */ 
+
+.col-gt {
+ display: flex;
+ justify-content: left;
+ align-items: left;
+ margin: 3% 0 0 7%;
+ flex-wrap: wrap;
+}
+
+.col-gt div {
+ width: 20%;
+ height: 35vh;
+ background: #D83F87;
+ border-radius: 10px;
+ box-shadow: 0 0 15px #00000088;
+ margin: 0 0 2% 8%;
+ text-align: center;
+ color: #A4B3B6;
+
+}
+
+.col-gt-inner1 {
+ position: relative;
+ width: 25%;
+ height: 55vh;
+}
+
+.col-gt div:hover {
+ width: 21%;
+ height: 36vh;
+ cursor: pointer;
+ transition: 0.3s all ease-in-out;
+}
+

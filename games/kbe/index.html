@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="kbe.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaas, Boter en eieren | Xtreme games</title>
+
+</head>
+
+<body>
+
+  <div id="game-container" class="center">
+    <div id="title" class="center">
+      <p>Kaas - Boter - Eieren</p>
+    </div>
+    <div id="canvas-container" class="center">
+    </div>
+    <div id="info-bar" class="center">
+      <p id="winner"></p>
+      <p>De AI speelt als <em>X</em></p>
+      <button id="reset-button">Reset</button
+      </br>
+      <div class="form-inline">
+        <p id="difficulty-info">Hoe moeilijk:    </p>
+        <input placeholder="*" id="difficulty" type="number" max="6" min="1" value="1">
+      </div>
+
+    </div>
+  </div>
+  <script src="minimax.js"></script>
+  <script src="sketch.js"></script>
+</body>
+
+</html>

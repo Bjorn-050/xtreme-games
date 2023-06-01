@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+canvas {
+  display: block;
+}
+
+#canvas-container {
+ width: -moz-fit-content;
+  width: fit-content;
+  background: #44318D;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+#game-container {
+  background: white;
+  min-width: -moz-fit-content;
+  min-width: fit-content; 
+  min-width: -webkit-fill-available
+
+}
+
+#info-bar {
+  font-family: 'Open sans', sans-serif;
+  padding: 5px;
+}
+
+#info-bar p {
+  font-size: 20px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+}
+
+
+.form-inline {  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.form-inline p {
+  margin: 5px 10px 5px 0;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+#title {
+  font-family: 'Open sans', sans-serif;
+  font-size: 64px;
+  width: fit-content;
+  text-align: center;
+}
+
+* {
+ text-align: center;
+ font-family: 'Open sans', sans-serif;
+
+}
+
+#reset-button {
+  border: none;
+  background: #D83F87;
+  border-radius: 5px;
+  padding: 0.8em;
+  color: #A4B3B6;
+}
+
+#reset-button:hover {
+  transition: 0.45s all ease-in-out;
+  transform: scale(105%);
+}
+
+em {
+  font-weight: bold;
+}

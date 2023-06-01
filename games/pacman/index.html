@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pac-Man | Xtreme games</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <style>
+      #gameCanvas {
+        box-shadow: 10px 10px 20px black;
+      }
+      h1, h3 {
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        color: lightgrey;
+      }
+
+      em {
+        font-weight: bold;
+      }
+
+  
+      body {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        height: 100vh;
+        background: linear-gradient(
+          0deg,
+          rgb(17, 51, 161) 0%,
+          rgb(136, 34, 195) 100%
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Pac-man</h1>
+      <h3>Druk om <em>A</em> of <em>D</em> om te beginnen.</h3>
+      <canvas id="gameCanvas"></canvas>
+      <h3>Druk op <em>F5</em> of druk op <em>Ctrl + R</em> om opniew te beginnen</h3>
+    </div>
+    <script src="src/Game.js" type="module"></script>
+  </body>
+</html>
