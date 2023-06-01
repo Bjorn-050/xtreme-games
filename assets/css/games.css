@@ -210,3 +210,8 @@ h1, h2 {
     display: block;
     text-decoration: none;
 }
+
+col-gt-inner1 a {
+    display: block;
+    text-decoration: none;
+}
